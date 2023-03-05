@@ -1,0 +1,73 @@
+body{
+    background-image: url("images/bg-desktop.svg");
+    background-color: hsl(257, 40%, 49%) !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400;
+    color: #fff !important;
+    padding: 2% 6%;
+}
+
+.navbar img{
+    width: 15%;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600 !important;
+    padding-top: 7%;
+    line-height: 1.5;
+}
+
+.title{
+    padding: 4% 0 5%;
+}
+
+.title-image img{
+    width: 100%;
+}
+
+
+button{
+    border-radius: 50px !important;
+    padding: 2% 10%;
+    border: none;
+    color: hsl(257, 40%, 49%);
+    margin-top: 3% !important;
+    font-family: 'Poppins', sans-serif !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+/* 
+.attribution{
+    padding-bottom: 1% !important;
+} */
+
+
+
+@media (max-width: 762px) {
+    
+    .navbar img{
+        width: 30%;
+    }
+
+    .title{
+        padding: 10% 0 5%;
+        text-align: center;
+    }
+
+    .title-write{
+        padding-top: 8%;
+    }
+
+    .title-write p{
+        padding-top: 3%;
+    }
+
+    button{
+        padding: 2% 18%;
+    }
+}
