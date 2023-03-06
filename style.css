@@ -91,6 +91,20 @@ button:hover{
 #contact{
     background-color:  hsl(192, 100%, 9%);
 }
+
+.cta-box button{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.cta-box button:hover{
+    background-color: hsl(257, 40%, 49%);
+    color: #fff;
+}
+
+
+
+
 /* footer */
 .attribution{
     margin-top: 8%;
@@ -124,3 +138,5 @@ button:hover{
         margin-bottom: 7%;
     }
 }
+
+
