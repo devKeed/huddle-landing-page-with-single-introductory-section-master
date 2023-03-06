@@ -1,7 +1,6 @@
 body{
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 400;
-
 }
 
 #hero{
@@ -44,6 +43,42 @@ button{
 button:hover{
     background-color: hsl(300, 69%, 71%);
     color: #fff;
+    border: none;
+}
+
+
+/* Features section */
+.feature-box{
+    margin: 5% 5% 2%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.feature-image{
+    width: 100%;
+    padding: 5%;
+}
+
+.feature-title-left{
+    padding: 15% 5% 2% 15%;
+}
+
+.feature-title-right{
+    padding: 15%;
+}
+
+.feature-head-right{
+    margin: auto 15% auto 15%;
+}
+
+.feature-write-right{
+    margin-left: 15%;
+}
+
+
+/* footer */
+.attribution{
+    margin-top: 8%;
 }
 
 
@@ -69,5 +104,6 @@ button:hover{
 
     button{
         padding: 2% 18%;
+        margin-bottom: 7%;
     }
 }
