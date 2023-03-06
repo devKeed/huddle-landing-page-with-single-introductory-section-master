@@ -14,7 +14,7 @@ body{
     width: 15%;
 }
 
-h1{
+h1,h2{
     font-family: 'Poppins', sans-serif;
     font-weight: 600 !important;
     padding-top: 7%;
@@ -48,6 +48,9 @@ button:hover{
 
 
 /* Features section */
+#features{
+    font-weight: 600;
+}
 .feature-box{
     margin: 5% 5% 2%;
     border-radius: 10px;
@@ -60,7 +63,7 @@ button:hover{
 }
 
 .feature-title-left{
-    padding: 15% 5% 2% 15%;
+    padding: 15% 10% 2% 15%;
 }
 
 .feature-title-right{
@@ -75,11 +78,25 @@ button:hover{
     margin-left: 15%;
 }
 
+/* cta section*/
 
+.cta-box{
+    margin: 8% 20% 8%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+#contact{
+    background-color:  hsl(192, 100%, 9%);
+}
 /* footer */
 .attribution{
     margin-top: 8%;
 }
+
+
 
 
 
